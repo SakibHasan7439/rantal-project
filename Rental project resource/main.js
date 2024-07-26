@@ -42,3 +42,53 @@ ScrollReveal().reveal(".header-links", {
     delay: 1500,
 });
 
+ScrollReveal().reveal(".step-card", {
+    ...scrollRevealOption,
+    interval: 500,
+});
+
+ScrollReveal().reveal(".service-img img", {
+    ...scrollRevealOption,
+    origin: "left",
+});
+
+ScrollReveal().reveal(".service-content .section-subheading", {
+    ...scrollRevealOption,
+    delay: 500,
+});
+
+ScrollReveal().reveal(".service-content .section-header", {
+    ...scrollRevealOption,
+    delay: 1000,
+});
+
+ScrollReveal().reveal(".service-list li", {
+    ...scrollRevealOption,
+    delay: 1500,
+    interval: 500,
+});
+
+ScrollReveal().reveal(".experience-card", {
+    duration: 1000,
+    interval: 500,
+});
+
+ScrollReveal().reveal(".download-image img", {
+    ...scrollRevealOption,
+    origin: "right",
+});
+
+ScrollReveal().reveal(".download-content .section-header", {
+    ...scrollRevealOption,
+    delay: 500,
+});
+
+ScrollReveal().reveal(".download-content p", {
+    ...scrollRevealOption,
+    delay: 1000,
+});
+
+ScrollReveal().reveal(".download-links", {
+    ...scrollRevealOption,
+    delay: 1500,
+});
